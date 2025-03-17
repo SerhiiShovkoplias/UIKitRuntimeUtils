@@ -15,10 +15,6 @@ objc_library(
     includes = [
       #"Source",
     ],
-    deps = [
-      "//submodules/AsyncDisplayKit:AsyncDisplayKit",
-      "//submodules/ObjCRuntimeUtils:ObjCRuntimeUtils",
-    ],
     sdk_frameworks = [
       "Foundation",
       "UIKit",
