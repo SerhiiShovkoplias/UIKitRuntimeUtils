@@ -1,7 +1,7 @@
 #import "UIMenuItem+Icons.h"
 
 #import "NSBag.h"
-#import <ObjCRuntimeUtils/RuntimeUtils.h>
+#import "RuntimeUtils.h"
 
 static const void *imageKey = &imageKey;
 static const void *imageViewKey = &imageViewKey;

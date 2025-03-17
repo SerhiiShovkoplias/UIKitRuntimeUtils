@@ -1,9 +1,9 @@
 #import "UIViewController+Navigation.h"
 
-#import <ObjCRuntimeUtils/RuntimeUtils.h>
 #import <objc/runtime.h>
 
 #import "NSWeakReference.h"
+#import "RuntimeUtils.h"
 
 
 @interface UIViewControllerPresentingProxy : UIViewController

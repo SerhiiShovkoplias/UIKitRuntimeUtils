@@ -1,6 +1,6 @@
 #import "NotificationCenterUtils.h"
 
-#import <ObjCRuntimeUtils/RuntimeUtils.h>
+#import "RuntimeUtils.h"
 #import <UIKit/UIKit.h>
 
 static NSMutableArray *notificationHandlers() {

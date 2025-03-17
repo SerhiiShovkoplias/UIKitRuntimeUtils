@@ -1,7 +1,7 @@
 #import "UIBarButtonItem+Proxy.h"
 
 #import "NSBag.h"
-#import <ObjCRuntimeUtils/RuntimeUtils.h>
+#import "RuntimeUtils.h"
 
 static const void *setEnabledListenerBagKey = &setEnabledListenerBagKey;
 static const void *setTitleListenerBagKey = &setTitleListenerBagKey;

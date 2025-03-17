@@ -1,7 +1,7 @@
 #import "UINavigationItem+Proxy.h"
 
 #import "NSBag.h"
-#import <ObjCRuntimeUtils/RuntimeUtils.h>
+#import "RuntimeUtils.h"
 #import "NSWeakReference.h"
 
 static const void *sourceItemKey = &sourceItemKey;

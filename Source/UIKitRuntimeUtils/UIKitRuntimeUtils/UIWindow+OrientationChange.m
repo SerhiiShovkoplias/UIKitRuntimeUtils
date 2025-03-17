@@ -1,7 +1,7 @@
 #import "UIWindow+OrientationChange.h"
 
-#import <ObjCRuntimeUtils/RuntimeUtils.h>
 #import "NotificationCenterUtils.h"
+#import "RuntimeUtils.h"
 
 static const void *isRotatingKey = &isRotatingKey;
 

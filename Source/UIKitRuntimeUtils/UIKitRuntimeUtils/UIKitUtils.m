@@ -1,6 +1,6 @@
 #import "UIKitUtils.h"
 
-#import <ObjCRuntimeUtils/RuntimeUtils.h>
+#import "RuntimeUtils.h"
 
 #import <objc/runtime.h>
 
