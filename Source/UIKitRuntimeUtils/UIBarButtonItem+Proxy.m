@@ -5,7 +5,6 @@
 
 static const void *setEnabledListenerBagKey = &setEnabledListenerBagKey;
 static const void *setTitleListenerBagKey = &setTitleListenerBagKey;
-static const void *customDisplayNodeKey = &customDisplayNodeKey;
 static const void *backButtonAppearanceKey = &backButtonAppearanceKey;
 static const void *customActionKey = &customActionKey;
 
@@ -21,24 +20,12 @@ static const void *customActionKey = &customActionKey;
     });
 }
 
-- (instancetype)initWithCustomDisplayNode:(ASDisplayNode *)customDisplayNode {
-    self = [self init];
-    if (self != nil) {
-        [self setAssociatedObject:customDisplayNode forKey:customDisplayNodeKey];
-    }
-    return self;
-}
-
 - (instancetype)initWithBackButtonAppearanceWithTitle:(NSString *)title target:(id)target action:(SEL)action {
     self = [self initWithTitle:title style:UIBarButtonItemStylePlain target:target action:action];
     if (self != nil) {
         [self setAssociatedObject:@true forKey:backButtonAppearanceKey];
     }
     return self;
-}
-
-- (ASDisplayNode *)customDisplayNode {
-    return [self associatedObjectForKey:customDisplayNodeKey];
 }
 
 - (bool)backButtonAppearance {
